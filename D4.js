@@ -93,8 +93,11 @@ console.log(epify("ORANGE è gustoso"))
  Scrivi una funzione di nome "check3and7" che accetta un numero positivo come parametro. La funzione deve controllare che il parametro sia un multiplo
  di 3 o di 7. (Suggerimento: usa l'operatore modulo)
 */
+function check3and7(n){
+    return n % 3 === 0 || n % 7 ===0;
+}
 
-
+console.log ( check3and7(23))
 /* SCRIVI QUI LA TUA RISPOSTA */
 
 /* ESERCIZIO 7
@@ -135,5 +138,13 @@ console.log(upperFirst("cherry"))
 /* ESERCIZIO 10
  Scrivi una funzione di nome "giveMeRandom", che accetta come parametro un numero n e ritorna un'array contenente n numeri casuali inclusi tra 0 e 10.
 */
+
+function giveMeRandom(n){
+    return Math.floor(Math.random()*11)
+}
+
+console.log(giveMeRandom(""))
+console.log(giveMeRandom(""))
+console.log(giveMeRandom(""))
 
 /* SCRIVI QUI LA TUA RISPOSTA */
